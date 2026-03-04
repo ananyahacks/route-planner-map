@@ -47,13 +47,14 @@ This project integrates **Leaflet.js**, **OpenStreetMap**, and the **OpenRouteSe
 
 ## Project Structure
 
+```
 route-planner-map
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
+    │
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md`
+```
 ---
 
 ## What I Learned
