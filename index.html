@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Route Planner</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<div class="route-card">
+
+  <div class="transport-row">
+    <button class="mode active" data-mode="driving">🚗</button>
+    <button class="mode" data-mode="walking">🚶</button>
+    <button class="mode" data-mode="cycling">🚴</button>
+  </div>
+
+  <div class="input-wrapper">
+    <input id="start" placeholder="Start location">
+    <div id="start-results" class="results"></div>
+  </div>
+
+  <div class="input-wrapper">
+    <input id="end" placeholder="Destination">
+    <div id="end-results" class="results"></div>
+  </div>
+
+  <div class="route-info">
+    <h2>—</h2>
+    <p>Distance will appear here</p>
+  </div>
+
+  <button id="clearBtn">Clear</button>
+
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
